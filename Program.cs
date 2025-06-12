@@ -4,7 +4,7 @@ using MongooCrud.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// seting up configurations
+// Aeting up configurations.
 builder.Services.Configure<MongoDbSettings>(builder.Configuration.GetSection("MongoDbConnectionSettings"));
 
 // Add services to the container.
